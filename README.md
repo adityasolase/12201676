@@ -25,15 +25,6 @@ Use [Postman](https://www.postman.com/) or Insomnia for the following API tests:
 ### 1. Create Short URL
 **POST** `http://localhost:3000/shorturls`
 
-**Body (JSON):**
-```json
-{
-  "url": "https://example.com/long-page",
-  "validity": 10,
-  "shortcode": "custom123"
-}
-
-'''
 2. Redirect to Original URL
 Open in browser:
 http://localhost:3000/custom123
